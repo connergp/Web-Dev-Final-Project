@@ -1,0 +1,37 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.fontchange{
+    color: rgb(209, 172, 123); font-style: italic;
+}
+
+.underline{
+  text-decoration-style: wavy;
+}
+
+.italics{
+  font-style: italic;
+}
+
+.h2 {
+  text-shadow: 2px 2px 5px red;
+}
+
+.backtotop{
+  text-align: center; text-decoration: underline blue; font-style: bold;
+}
+
+.h3{
+  font-size:small; font-style: normal; font-family: Arial, Helvetica, sans-serif;
+}
